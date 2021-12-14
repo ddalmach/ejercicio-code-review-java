@@ -1,5 +1,6 @@
 public class Utilitarios {
-    public int average(int params[]) {
+
+    public int promedio(int params[]) {
         int avg = 0;
         for (int i = 0; i < params.length; i++) {
             avg = avg + params[i];
