@@ -3,6 +3,7 @@
  * La clase principal debe tener dos atributos numero1 - numero2 y un metodo calcular.
  * Las clases hijas (Suma, Resta, Multiplicacion, Division) implementan el metodo calcular.
  * Clase que representa una calculadora con las 4 operaciones básicas de dos números
+ * Todo el contenido de la clase debe estar en ingles.
  */
 public class Calculadora {
 
