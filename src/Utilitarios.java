@@ -23,7 +23,7 @@ public class Utilitarios {
     }
 
     public double areaCirculo(double r) {
-        //TODO valor constante, separar declaracion en contate estatica
+        //TODO valor constante, separar declaracion en contate estática
         final double PI = 22 / 7;
         return PI * (r * r);
     }
@@ -37,9 +37,9 @@ public class Utilitarios {
     }
 
     public double calculoIva(double valor) {
-        //TODO valor contante, separar en variable estatica
+        //TODO valor contante, separar en variable estática
         final int IVA = 12;
-        //TODO se recomienda formula  iva * valor, donde el valor del iva sea una variable constante = 12/100
+        //TODO se recomienda formula  iva * valor, donde el valor del iva sea una variable constante estática double = 12/100
         return (valor * IVA) / 100;
     }
 
