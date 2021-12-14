@@ -39,7 +39,7 @@ public class Utilitarios {
     public double calculoIva(double valor) {
         //TODO valor contante, separar en variable estática
         final int IVA = 12;
-        //TODO se recomienda formula  iva * valor, donde el valor del iva sea una variable constante estática double = 12/100
+        //TODO se recomienda formula  iva * valor, donde  iva sea una variable constante estática double = 12/100
         return (valor * IVA) / 100;
     }
 
