@@ -1,6 +1,6 @@
 // Una clse utilitaria, debe ser declarada como final y debe tener un constructor privado.
 // Todos sus metodos deben ser estaticos.
-// Todo el contenido de la clase debe estar en ingles.
+// Todo el contenido de la clase debe estar en ingles y no plural.
 public class Utilitarios {
     
     // El nombres del parametro debe ser desciptivo.
