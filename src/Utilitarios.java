@@ -21,9 +21,7 @@ public class Utilitarios {
 
     //b = base ; h= altura
     public double areaTriangulo(double b, double h) {
-        double resultado = 0d;
-        resultado = (b * h) / 2;
-        return resultado;
+        return (b * h) / 2.0;
     }
 
     public double calculoIva(double valor) {
