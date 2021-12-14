@@ -2,7 +2,7 @@ public class Utilitarios {
     public int average(int params[]) {
         int avg = 0;
         for (int i = 0; i < params.length; i++) {
-            //TODO usar sobrecarga +=
+            //TODO usar   +=
             avg = avg + params[i];
         }
         //TODO divicion por cero.
@@ -15,7 +15,7 @@ public class Utilitarios {
             return resultado;
         }
         for (int i = 2; i <= numero; i++) {
-            //TODO usar sobrecarga  resultado *= i
+            //TODO usar   *=
             resultado = resultado * i;
 
         }
