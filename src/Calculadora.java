@@ -7,6 +7,7 @@ public class Calculadora {
         //metodo para crear una suma
         int resul = 0;
         resul = num1 + num2;
+        //todo remove unnecessary variables  update -> return num1 + num2
         return resul;
     }
 
@@ -14,6 +15,7 @@ public class Calculadora {
         //metodo para crear la resta
         int resul = 0;
         resul = num1 - num2;
+        //todo remove unnecessary variables  update -> return num1 - num2
         return resul;
     }
 
@@ -21,6 +23,7 @@ public class Calculadora {
         //metodo para crear la multiplicacion
         int resul = 0;
         resul = num1 * num2;
+        //todo remove unnecessary variables  update -> return num1 * num2
         return resul;
     }
 
@@ -28,6 +31,8 @@ public class Calculadora {
         //metodo para la division
         //double es para un valor con punto decimal
         double resul = 0;
+
+        // todo The values should be cast since you are dividing two integers and the answer is a double
         resul = num1 / num2;
         return resul;
     }
