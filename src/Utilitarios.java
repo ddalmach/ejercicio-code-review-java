@@ -20,6 +20,7 @@ public class Utilitarios {
     }
 
     public double areaCirculo(double r) {
+        //En caso de que se pueda mejorar el valor de PI
         final double PI = 22 / 7;
         return PI * (r * r);
     }
