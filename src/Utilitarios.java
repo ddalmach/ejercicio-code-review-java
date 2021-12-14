@@ -18,10 +18,9 @@ public class Utilitarios {
         final double PI = 22.0 / 7.0;
         return PI * (r * r);
     }
-
-    //b = base ; h= altura
-    public double calcularAriangulo(double b, double h) {
-        return (b * h) / 2.0;
+    
+    public double calcularAriangulo(double base, double altura) {
+        return (base * altura) / 2.0;
     }
 
     public double calcularIva(double valor) {
