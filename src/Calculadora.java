@@ -1,6 +1,7 @@
 /**
  * Clase que representa una calculadora con las 4 operaciones básicas de dos números
  */
+// Se puede usar herencia
 public class Calculadora {
         // tipos de dattos de ntrada y salida double
     public int suma(int num1, int num2) {
