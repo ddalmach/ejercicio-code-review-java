@@ -4,6 +4,7 @@
 public class Calculadora {
 
     public int suma(int num1, int num2) {
+        //TODO se deberia retornar directamente num1 + num2
         //metodo para crear una suma
         int resul = 0;
         resul = num1 + num2;
@@ -11,6 +12,7 @@ public class Calculadora {
     }
 
     public int resta(int num1, int num2) {
+        //TODO se deberia retornar directamente num1 - num2
         //metodo para crear la resta
         int resul = 0;
         resul = num1 - num2;
@@ -18,6 +20,7 @@ public class Calculadora {
     }
 
     public int multipli(int num1, int num2) {
+        //TODO se deberia retornar directamente num1 * num2
         //metodo para crear la multiplicacion
         int resul = 0;
         resul = num1 * num2;
@@ -25,6 +28,8 @@ public class Calculadora {
     }
 
     public double divi(int num1, int num2) {
+        // TODO se debería primero validar el parámetro num2
+        // TODO debería estar sujeto a una excepcion
         //metodo para la division
         //double es para un valor con punto decimal
         double resul = 0;
