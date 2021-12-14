@@ -9,6 +9,7 @@ public class Utilitarios {
 
     public double factorial(int numero) {
         double resultado = 1;
+        //TODO factorial por lo general es una funcion de naturaleza recursiva
         if (numero == 1 || numero == 0) {
             return resultado;
         }
@@ -32,7 +33,7 @@ public class Utilitarios {
     }
 
     public double calculoIva(double valor) {
-        //TODO definir IVA como una constante
+        //TODO definir IVA como una constante fuera del scope de la funcion
         final int IVA = 12;
         return (valor * IVA) / 100;
     }
