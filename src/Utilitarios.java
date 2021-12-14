@@ -4,6 +4,7 @@ public class Utilitarios {
         for (int i = 0; i < params.length; i++) {
             avg = avg + params[i];
         }
+        //la resultado de la division va a dar error en caso de tener valores decimales
         return avg / params.length;
     }
 
