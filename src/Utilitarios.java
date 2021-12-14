@@ -1,6 +1,8 @@
+//TODO si es una clase utilitaria se podria definir los metodos como staticos para no instaciar la clase
 public class Utilitarios {
     public int average(int params[]) {
         int avg = 0;
+        //TODO se pudiese sustituir por una expresion lamda
         for (int i = 0; i < params.length; i++) {
             avg = avg + params[i];
         }
