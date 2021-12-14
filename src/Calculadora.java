@@ -27,8 +27,8 @@ public class Calculadora {
     public double divi(int num1, int num2) {
         //metodo para la division
         //double es para un valor con punto decimal
-        double resul = 0;
-        resul = num1 / num2;
+        double resul = 0;    
+        resul = num1 / num2;  // Realizar validacion que num2==0 System.out.println("No se puede dividir entre cero");
         return resul;
     }
 
