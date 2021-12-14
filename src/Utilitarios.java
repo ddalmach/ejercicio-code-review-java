@@ -1,3 +1,5 @@
+import java.util.stream.LongStream;
+
 public class Utilitarios {
 
     public int promedio(int... params) {
@@ -9,10 +11,7 @@ public class Utilitarios {
     }
 
     public double factorial(int numero) {
-        if (numero == 1 || numero == 0) {
-            return 1;
-        }
-        return numero*factorial(numero - 1);
+        return LongStream.rangeClosed(1, numero).reduce(1, (long x, long y) -> x * y);
     }
 
     public double areaCirculo(double r) {
