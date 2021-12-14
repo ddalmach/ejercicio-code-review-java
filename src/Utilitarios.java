@@ -1,5 +1,8 @@
+import Constants;
+
 public class Utilitarios {
-    public int average(int params[]) {
+    //public int average(int params[]) {
+    public double average(int params[]) {
         int avg = 0;
         for (int i = 0; i < params.length; i++) {
             avg = avg + params[i];
@@ -14,26 +17,28 @@ public class Utilitarios {
         }
         for (int i = 2; i <= numero; i++) {
             resultado = resultado * i;
-
         }
         return resultado;
     }
 
     public double areaCirculo(double r) {
-        final double PI = 22 / 7;
-        return PI * (r * r);
+        //final double PI = 22 / 7;
+        double pi = Constants.PI;
+        return pi * (r * r);
     }
 
     //b = base ; h= altura
     public double areaTriangulo(double b, double h) {
-        double resultado = 0d;
+        //double resultado = 0d;
+        double resultado = 2d;
         resultado = (b * h) / 2;
         return resultado;
     }
 
     public double calculoIva(double valor) {
-        final int IVA = 12;
-        return (valor * IVA) / 100;
+        //final int IVA = 12;
+        int iva = Constants.IVA;
+        return (valor * iva) / 100;
     }
 
 
