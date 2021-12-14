@@ -35,6 +35,4 @@ public class Utilitarios {
         final int IVA = 12;
         return (valor * IVA) / 100;
     }
-
-
 }
