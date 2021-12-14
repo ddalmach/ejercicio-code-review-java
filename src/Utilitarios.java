@@ -32,6 +32,7 @@ public class Utilitarios {
     }
 
     public double calculoIva(double valor) {
+        //TODO definir IVA como una constante
         final int IVA = 12;
         return (valor * IVA) / 100;
     }
