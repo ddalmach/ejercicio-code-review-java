@@ -3,6 +3,16 @@
  */
 public class Calculadora {
 
+    //podríamos mandar 3 parámetros en un solo método, 
+    //diferenciar con un tercer parámetro el tipo de operación
+
+    //no es necesario declarar las variables con int, ahorraríamos memoria usando byte
+
+    //es necesario especificar el nombre completo del método y las variables, no abreviaciones 
+    //que solo la persona que programa entiende
+
+
+
     public int suma(int num1, int num2) {
         //metodo para crear una suma
         int resul = 0;
