@@ -2,26 +2,21 @@ public class Utilitarios {
 
     public int promedio(int... params) {
         int avg = 0;
-        for (int i = 0; i < params.length; i++) {
-            avg = avg + params[i];
+        for (int param : params) {
+            avg = avg + param;
         }
         return avg / params.length;
     }
 
     public double factorial(int numero) {
-        double resultado = 1;
         if (numero == 1 || numero == 0) {
-            return resultado;
+            return 1;
         }
-        for (int i = 2; i <= numero; i++) {
-            resultado = resultado * i;
-
-        }
-        return resultado;
+        return numero*factorial(numero - 1);
     }
 
     public double areaCirculo(double r) {
-        final double PI = 22 / 7;
+        final double PI = 22.0 / 7.0;
         return PI * (r * r);
     }
 
