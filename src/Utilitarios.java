@@ -15,7 +15,7 @@ public class Utilitarios {
             return resultado;
         }
         for (int i = 2; i <= numero; i++) {
-            //TODO usar sobrecarga  resltado *= i
+            //TODO usar sobrecarga  resultado *= i
             resultado = resultado * i;
 
         }
