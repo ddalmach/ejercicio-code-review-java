@@ -1,5 +1,7 @@
+//Por favor homologar el idioma entre clase, métodos y variables
 public class Utilitarios {
     public int average(int params[]) {
+        //No se recomienda utilizar abreviaturas
         int avg = 0;
         for (int i = 0; i < params.length; i++) {
             avg = avg + params[i];
