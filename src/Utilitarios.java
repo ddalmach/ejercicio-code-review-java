@@ -6,7 +6,7 @@ public class Utilitarios {
         }
         return avg / params.length;
     }
-
+// deberia poner un solo return en la funcion
     public double factorial(int numero) {
         double resultado = 1;
         if (numero == 1 || numero == 0) {
@@ -18,7 +18,8 @@ public class Utilitarios {
         }
         return resultado;
     }
-
+// usar funciones math
+    //
     public double areaCirculo(double r) {
         final double PI = 22 / 7;
         return PI * (r * r);
