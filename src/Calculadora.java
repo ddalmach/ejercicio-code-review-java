@@ -47,6 +47,7 @@ public class Calculadora {
         //no hace falta inicializar una variable, además se debería inicializar con el punto decimal
         double resul = 0;
         //basta con retornar el resultado
+        //Si num2 es 0 va a dar error, por favor validar
         resul = num1 / num2;
         return resul;
     }
