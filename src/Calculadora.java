@@ -28,6 +28,7 @@ public class Calculadora {
         //metodo para la division
         //double es para un valor con punto decimal
         double resul = 0;
+        // se debe tomar en cuenta la division para 0
         resul = num1 / num2;
         return resul;
     }
